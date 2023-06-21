@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FAFBFF;
+    height: 1000px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+/**content division**/
+.content{
+    display: flex;
+    flex-direction: row;
+}
+/**content one section**/
+.content-one{
+    width: 17%;
+    height: 1000px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 50px;
+}
+.content-one:hover{
+    background-color: #9197B3;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: column;
+    gap: 41px;
+}
+.navbar-one{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+#dashboard{
+    font-size: 26px;
+    line-height: 42px;
+    font-weight: 600;
+}
+#version{
+    font-size: 12px;
+    line-height: 48px;
+}
+.list1{
+    display: flex;
+    justify-content: space-between;
+    color: #9197B3;
+}
+.navbar-two{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+.list-menu{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.dash-section{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    color: #9197B3;
+}
+.list2{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    background: #5932EA;
+    border-radius: 8px;
+    padding: 14px 6px;
+}
+
+.rectangle{
+    background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+    width: 250px;
+    height: 150px;
+    border-radius: 20px;
+}
+.rectangle:hover{
+    transform: rotate(5deg);
+    transition: ease-in-out 3s;
+}
+.rectangle-text{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.45mm;
+    padding: 25px 20px;
+    color: #ffffff;
+}
+.btn-text{
+    background: #FFFFFF;
+    border-radius: 20px;
+    color: #4925E9;
+    margin-left: 50px;
+    padding: 8px 26px;
+    border: 1px solid #4925E9;
+}
+.btn-text:hover{
+    background: #4925E9;
+    color: #ffffff;
+    transform: translateX(60px);
+}
+.bio{
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 1fr;
+    margin-top: 49px;
+}
+.bio-text{
+    display: flex;
+    flex-direction: column;
+    justify-self: end;
+}
+.name{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 23px;
+}
+.project{
+    font-size: 12px;
+    color: #757575;
+}
+.down{
+    justify-self: end;
+    padding-top: 2px;
+}
+/**content two section**/
+.content-two{
+    width: 83%;
+    padding: 30px 39px;
+    display: flex;
+    flex-direction: column;
+}
+.nameAndSearch{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.hello{
+    font-weight: 500;
+    font-size: 24px;
+}
+.search{
+    background-color: #ffffff;
+    width: 180px;
+    height: 30px;
+    display: flex;
+    gap: 2px;
+}
+#search{
+    font-size: 12px;
+    line-height: 1px;
+    color: #B5B7C0;
+}
+
+.costumers{
+    height: 150px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.total{
+    font-size: 14px;
+    line-height: 21px;
+    color: #ACACAC;
+    letter-spacing: -0.2mm;
+}
+
+.members{
+    height: 812px;
+   background-color: #ffffff;
+   margin-top: 30px;
+   padding: 20px;
+}
+.members-one{
+    display: grid;
+    grid-template-columns: 1.1fr 0.5fr 0.4fr ;
+}
+.table{
+    padding-top: 49px;
+    width: 100%;
+}
+.content-two:hover{
+    border: 1px #5932EA dashed;
+}
+th{
+    color: #B5B7C0;
+    text-align: left;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+td{
+    height: 70px;
+}
+tr{
+    border: 2px blue solid;
+}
+
+.footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.entry{
+    display: flex;
+    gap: 17px;
+}
+.white{
+    background-color: #F5F5F5;
+    border: 1px solid #EEEEEE;
+    border-radius: 4px;
+    padding: 6px 9px;
+}
+.purple{
+    background: #5932EA;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 9px;
+}
+.purple:hover{
+    background: #F5F5F5;
+    border-radius: 4px;
+    border-radius: 4px;
+    padding: 6px 9px;
+    color: #4623E9;
+}

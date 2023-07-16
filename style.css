@@ -12,7 +12,8 @@ body{
 /**content division**/
 .content{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    background-color: #FAFBFF;
 }
 /**content one section**/
 .content-one{
@@ -24,14 +25,30 @@ body{
     justify-content: space-between;
     padding: 30px 50px;
 }
-.content-one:hover{
-    background-color: #9197B3;
+#content-one{
+    width: 120px;
+    height: 1200px;
+    background: #5932EA;
+    display: flex; padding: 30px 0;
+    flex-direction: column;
+    gap: 120px;
 }
-
-.navbar{
+#nav{
     display: flex;
     flex-direction: column;
-    gap: 41px;
+    gap: 70px;
+}
+
+#nav2{
+    display: flex;
+    flex-direction: column; gap: 40px;
+    width: fit-content;
+    margin: auto;
+}
+
+.Navbar{
+    display: flex;
+    flex-direction: column;
 }
 .navbar-one{
     display: flex;
@@ -81,11 +98,12 @@ body{
     background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
     width: 250px;
     height: 150px;
+    margin: 20px 0 0 30px;
     border-radius: 20px;
 }
 .rectangle:hover{
-    transform: rotate(5deg);
-    transition: ease-in-out 3s;
+    transform: scale(120%);
+    transition: ease-in-out 2s;
 }
 .rectangle-text{
     font-weight: bold;
@@ -107,7 +125,7 @@ body{
 .btn-text:hover{
     background: #4925E9;
     color: #ffffff;
-    transform: translateX(60px);
+    transform: scale(60%);
 }
 .bio{
     display: grid;
@@ -167,15 +185,17 @@ body{
     border-radius: 20px;
     display: flex;
     justify-content: space-around;
-
+}
+.stat1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 .total{
     font-size: 14px;
-    line-height: 21px;
     color: #ACACAC;
     letter-spacing: -0.2mm;
 }
-
 .members{
     height: 812px;
    background-color: #ffffff;
@@ -198,13 +218,12 @@ th{
     text-align: left;
     font-weight: 500;
     font-size: 16px;
-
 }
 td{
     height: 70px;
 }
 tr{
-    border: 2px blue solid;
+  vertical-align: middle; 
 }
 
 .footer{
@@ -222,13 +241,13 @@ tr{
     border-radius: 4px;
     padding: 6px 9px;
 }
-.purple{
-    background: #5932EA;
+#purple{
+    background-color: #5932EA;
     border-radius: 4px;
     border-radius: 4px;
     padding: 6px 9px;
 }
-.purple:hover{
+#purple:hover{
     background: #F5F5F5;
     border-radius: 4px;
     border-radius: 4px;
